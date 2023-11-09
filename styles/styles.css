@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.header {
+    background-color: cadetblue;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.header > p {
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+table {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 330px;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    width: 800px;
+}
+
+.tabela thead {
+    background-color: cadetblue;
+    font-size: 1.8rem;
+    height: 200px;
+}
+
+td {
+    font-size: 1.4rem;
+    color: gray;
+    padding: 2px;
+    text-align: center;
+}
+
+.peso {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.peso > h3 {
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    padding-bottom: 4px;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.altura {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.altura > h3 {
+    font-size: 1.4rem;
+    color:cornflowerblue;
+    padding-bottom: 4px;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao > p {
+    font-size: 1.4rem;
+    background: cadetblue;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background: cadetblue;
+    color: white;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    color: #000000;
+    border: 1px solid black;
+}
+

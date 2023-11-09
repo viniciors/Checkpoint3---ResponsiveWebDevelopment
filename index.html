@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint3</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Descubra se você está saudável</h1>
+        <p>Calculando o índice de massa corpórea</p>
+    </header>
+    
+    <div class="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>RESULTADO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abaixo de 17</td>
+                    <td>Muito abaixo do peso ideal</td>
+                </tr>
+                <tr>
+                    <td>Entre 17 e 18,49</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 18,5 e 24,99</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>Entre 25 e 29,99</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 30 e 34,99</td>
+                    <td>Obesidade grau 1</td>
+                </tr>
+                <tr>
+                    <td>Entre 35 e 39,99</td>
+                    <td>Obesidade grau 2 </td>
+                </tr>
+                <tr>
+                    <td>Acima de 40</td>
+                    <td>Obesidade grau 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="peso">
+        <h3>Seu peso em kg</h3>
+        <input class="js-peso" type="text" placeholder="Digite seu peso"/>
+    </div>
+
+    <div class="altura">
+        <h3>Sua altura em m</h3>
+        <input class="js-altura" type="text" placeholder="Digite sua altura"/>
+    </div>
+
+    <div class="botao">
+        <button>Calcular</button>
+        <p class="resultado"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
